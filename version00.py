@@ -38,3 +38,26 @@ while True:
     elif rando_num == 3:
         com_move = 's'
         print('SCISSORS')
+
+    # outcome and record
+    if player_move == com_move:
+        print('TIE')
+        ties = ties + 1
+    elif player_move == 'r' and com_move == 's':
+        print('JANKEN')
+        wins = wins + 1
+    elif player_move == 'p' and com_move == 'r':
+        print('JANKEN')
+        wins = wins + 1
+    elif player_move == 's' and com_move == 'p':
+        print('JANKEN')
+        wins = wins + 1
+    elif player_move == 'r' and com_move == 'p':
+        print('DEFEATED')
+        losses = losses + 1
+    elif player_move == 'p' and com_move == 's':
+        print('DEFEATED')
+        losses = losses + 1
+    elif player_move == 's' and com_move == 'r':
+        print('DEFEATED')
+        losses = losses + 1
