@@ -18,3 +18,11 @@ while True:
         if player_move == 'r' or player_move == 'p' or player_move == 's':
             break
         print('Enter r, p, s, or q.')
+
+    # conditional logic to display player choice:
+    if player_move == 'r':
+        print('ROCK versus...')
+    elif player_move == 'p':
+        print('PAPER versus...')
+    elif player_move == 's':
+        print('SCISSORS versus...')
