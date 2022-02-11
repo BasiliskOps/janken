@@ -1,2 +1,2 @@
-# terminumgame
-number guessing game in command line
+# roshaterminum
+rock paper scissors command line game
