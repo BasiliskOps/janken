@@ -26,3 +26,6 @@ while True:
         print('PAPER versus...')
     elif player_move == 's':
         print('SCISSORS versus...')
+
+    # conditional statements to display randomized computer:
+    rando_num = random.randint(1, 3)
