@@ -29,3 +29,12 @@ while True:
 
     # conditional statements to display randomized computer:
     rando_num = random.randint(1, 3)
+    if rando_num == 1:
+        com_move = 'r'
+        print('ROCK')
+    elif rando_num == 2:
+        com_move = 'p'
+        print('PAPER')
+    elif rando_num == 3:
+        com_move = 's'
+        print('SCISSORS')
